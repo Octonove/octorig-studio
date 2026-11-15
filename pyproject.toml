@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "octorig-studio"
+version = "0.1.0"
+description = "Local GLB inspection and experimental rigging workflow"
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.26,<3"]
+license = {text = "Multiple licenses; see LICENSE and THIRD_PARTY.md"}
+
+[project.scripts]
+octorig = "octorig.cli:main"
+
+[tool.setuptools]
+license-files = ["LICENSE", "LICENSES/*", "THIRD_PARTY.md"]
+
+[tool.setuptools.package-data]
+octorig = ["body_example.json", "body_humanoid_example.json"]
+
+[tool.setuptools.packages.find]
+include = ["octorig*"]

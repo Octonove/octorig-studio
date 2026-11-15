@@ -1,0 +1,11 @@
+{
+  "schema": "octorig.retarget/1",
+  "fps": 60,
+  "root_source": "Root",
+  "root_target": "Root",
+  "pairs": {
+    "Root": "Root",
+    "Upper": "Upper"
+  },
+  "clips": ["Wave"]
+}

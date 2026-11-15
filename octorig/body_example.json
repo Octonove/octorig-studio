@@ -1,0 +1,21 @@
+{
+  "schema": "octorig.body-motion/1",
+  "fps": 30,
+  "roles": {"upper": "Upper"},
+  "character_axes_degrees": [0, 0, 0],
+  "rotation_scale": 1.0,
+  "translation_scale": 1.0,
+  "clips": [
+    {
+      "name": "GentleMotion",
+      "duration_seconds": 2.0,
+      "loop": true,
+      "interpolation": "smooth",
+      "poses": [
+        {"phase": 0.0, "bones": {"upper": {"rotation": [0, 0, 0]}}},
+        {"phase": 0.5, "bones": {"upper": {"rotation": [8, 0, 0]}}},
+        {"phase": 1.0, "bones": {"upper": {"rotation": [0, 0, 0]}}}
+      ]
+    }
+  ]
+}

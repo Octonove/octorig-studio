@@ -1,0 +1,11 @@
+{
+  "schema": "octorig.runtime/1",
+  "python": "PATH_TO_ML_PYTHON",
+  "blender": "PATH_TO_BLENDER",
+  "software": "../vendor/unirig",
+  "checkpoints": "PATH_TO_CHECKPOINT_DIRECTORY",
+  "checkpoint_sha256": {
+    "skeleton": "REPLACE_WITH_SKELETON_CHECKPOINT_SHA256",
+    "skin": "REPLACE_WITH_SKIN_CHECKPOINT_SHA256"
+  }
+}
