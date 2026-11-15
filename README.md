@@ -5,6 +5,23 @@ animation, and inspecting the result. OctoRig combines an adapted UniRig source
 snapshot with Blender scripts and a local GLB viewer. It does not require an
 OctoRig account, and no project models or model checkpoints are bundled.
 
+## See it in action
+
+| Facial performance | Body performance |
+|:---:|:---:|
+| ![Animated close-up of an orc showing facial expressions and jaw movement](docs/media/orc-facial.gif) | ![Animated full-body orc performing a roar and a ground strike](docs/media/orc-body.gif) |
+
+This character showcases a workflow behind OctoRig. Its body skeleton and
+skinning were generated with OctoRig and UniRig, then animated in Blender with
+custom scripts. The facial close-up is a **separate bust** with a custom jaw
+rig and expressions built in Blender. The techniques from those scripts have
+been adapted into OctoRig's configurable body and facial tools. Character
+modeling, materials, lighting and rendering were separate steps; these clips
+are not the result of a one-click animation tool.
+
+The clips are for demonstration; the character model and textures are not
+included. See [MEDIA_LICENSE.md](MEDIA_LICENSE.md) for media terms.
+
 **Early development:** the Blender authoring and retargeting tools have been
 tested with synthetic rigs and need real-character artistic review. Rigs differ in topology, orientation,
 weights and anatomy; profiles and facial landmarks must be configured for each
